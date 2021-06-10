@@ -1,0 +1,25 @@
+[
+    {
+    "ServiceId" : 1,
+    "ServicePhoto" : "https://1.bp.blogspot.com/-rd5qiWfRta8/YFQpNZWZN3I/AAAAAAAAAY0/BVe2bapjA1ElH9NtDuyWmAtg7P_qxC_1gCLcBGAsYHQ/s0/Frame.png",
+    "ServiceName" : "Bike"
+   
+    },
+    {
+    "ServiceId" : 2,
+    "ServicePhoto" : "https://1.bp.blogspot.com/-Iw4sPe3An10/YFQpNilZ6XI/AAAAAAAAAY8/oFj5f3zzATQgACfPK5X0BYKciVYLA3rVwCLcBGAsYHQ/s0/Frame-2.png",
+    "ServiceName" : "Car"
+    },
+    {
+    "ServiceId" : 3,
+    "ServicePhoto" : "https://1.bp.blogspot.com/-yDK4mEFmsMg/YFQpNruORMI/AAAAAAAAAY4/hXctL-u2Wzkoywp7VS1zWcNh4Bqh-fZHQCLcBGAsYHQ/s0/Frame-1.png",
+    "ServiceName" : "Bus"
+    },
+    {
+    "ServiceId" : 4,
+    "ServicePhoto" : "https://1.bp.blogspot.com/-BaXwxvWZOsY/YFQpOYdjcsI/AAAAAAAAAZA/FcwzKQqTDZMFswmailEItTOQCL4SPV3SACLcBGAsYHQ/s0/Group.png",
+    "ServiceName" : "Train"
+    }
+    ]
+
+    
