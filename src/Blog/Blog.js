@@ -3,6 +3,7 @@ import img1 from '../images/blog.png';
 import img2 from '../images/blog1.png';
 import img3 from '../images/blog2.png';
 import { Link } from 'react-router-dom';
+import Slide from 'react-reveal/Slide';
 
 const BlogData = [
     {
@@ -28,6 +29,7 @@ const Blog = () => {
                 </div>
                 {
                     BlogData.map(data =>
+                        <Slide left>
                         <div className="col-md-6 col-lg-4">
                             <div class="card my-5">
                                 <img src={data.image} class="card-img-top" alt="..." />
@@ -37,6 +39,7 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
+                        </Slide>
                     )
                 }
             </div>

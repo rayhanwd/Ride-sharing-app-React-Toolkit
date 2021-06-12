@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-
+import Slide from 'react-reveal/Slide';
 
 const CardBox = (props) => {
   const { ServicePhoto, ServiceName } = props.Service;
@@ -10,6 +10,7 @@ const CardBox = (props) => {
   }
 
   return (
+    <Slide top>
     <div className="col-md-12 col-lg-3">
       <div className="card border-0 shadow text-center mt-5">
         <img src={ServicePhoto} className="image-fluid p-5" alt="..." />
@@ -19,6 +20,7 @@ const CardBox = (props) => {
         </div>
       </div>
     </div>
+    </Slide>
   );
 }
 
