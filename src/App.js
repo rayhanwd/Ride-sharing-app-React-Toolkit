@@ -22,9 +22,6 @@ function App() {
     <userContext.Provider value={[logInUser, setLogInUser]}>
       <Router>
         <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
           <Route path="/blog">
             <Blog />
           </Route>
@@ -40,6 +37,9 @@ function App() {
           <Private path="/destination">
             <Destination />
           </Private>
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
       </Router>
     </userContext.Provider>

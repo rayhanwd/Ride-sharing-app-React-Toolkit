@@ -80,3 +80,6 @@ input.input-css {
     padding: 7px 17px;
     border-radius: 0px 4px 4px 0px;;
   }
+ul,li{
+  list-style: none;
+}

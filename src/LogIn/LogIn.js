@@ -171,14 +171,12 @@ const LogIn = () => {
 
   return (
     <div className="formcontainer">
-
       <form onSubmit={handleSubmit}>
         {newUser && <input type="text" onBlur={handleChange} name="name" id="" required placeholder="Your name" />} <br></br><br></br>
         <input type="text" onBlur={handleChange} name="email" id="" required placeholder="Your email" /> <br></br><br></br>
         <input type="password" onBlur={handleChange} name="password" id="" required placeholder="Your password" /><br></br><br></br>
         <input type="submit" value={newUser ? 'Sign up' : 'Sign in'} />
       </form>
-
       
       <p style={{ color: 'red' }}>{user.error}</p>
 
